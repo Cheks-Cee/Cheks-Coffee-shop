@@ -1,0 +1,30 @@
+body{
+    width:1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: verdana;
+}
+
+@font-face{
+    font-family: headerfont;
+    src: url('../fonts/Lobster_1.3.otf')
+}
+
+header{
+    font-weight: bold;
+}
+
+.searchbox{
+    float: left;
+    padding:5px;
+    margin:10px 10px;
+    width: 200px;
+}
+.headerlogo{
+    float: left;
+    margin-right: 10px;
+}
+    .headerlogo > img {
+        height: 60px;
+        width: 60px;
+    }
