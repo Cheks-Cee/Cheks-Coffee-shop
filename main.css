@@ -32,6 +32,7 @@ header{
     padding:15px;
     margin: 8px 0px;
     font-weight:bold;
+    text-shadow: 0 4px 4px grey;
 }
 
 nav{
@@ -56,6 +57,13 @@ nav{
     background: -o-linear-gradient(right, #603813, #341c05); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(right, #603813, #341c05); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to right, #603813, #341c05);
+    height: 5vh;
+    line-height: 18px;
+    /* padding-bottom: 0.5rem; */
+}
+
+#coffee-title{
+    padding-top: 0.5rem;
 }
 
 .navlink{
@@ -68,9 +76,9 @@ nav{
     text-decoration: none;
 }
 
-    .navlink.active{
+    /* .navlink.active{
 
-    }
+    } */
 
 #welcomeimage{
     float: left;
@@ -139,6 +147,7 @@ nav{
 
 .accessoriesbestsellers {
     clear:both;
+    width: 700px;
 }
 
     .accessoriesbestsellers > header{
@@ -186,8 +195,10 @@ footer{
     background-color: #5c5045;
     margin:20px 0px 20px;
     padding: 5px;
+    /* margin-top: 5vh; */
 }
 
 .smalltext{
     font-size: 10px;
 }
+
