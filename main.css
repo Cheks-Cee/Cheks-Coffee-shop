@@ -69,6 +69,7 @@ nav{
 .navlink{
     height: 35px;
     margin-right:10px;
+    margin-left: 1rem;
     font-size: 18px;
     float: left;
     padding-top: 12px;
@@ -76,9 +77,17 @@ nav{
     text-decoration: none;
 }
 
-    /* .navlink.active{
+    .navlink:focus{
+        color: yellow;
+        /* color: rgb(161, 157, 157); */
 
-    } */
+    }
+
+.navlink:hover{
+    transform: scale(1.1);
+    
+}
+    
 
 #welcomeimage{
     float: left;
@@ -195,10 +204,34 @@ footer{
     background-color: #5c5045;
     margin:20px 0px 20px;
     padding: 5px;
-    /* margin-top: 5vh; */
 }
 
 .smalltext{
     font-size: 10px;
 }
 
+.textinput{
+    width: 20vw; 
+}
+
+fieldset{
+    padding: 0;
+    border: none;
+    margin-bottom: 2rem;
+}
+
+fieldset > div{
+    border: 2px solid #888888;
+}
+
+.textlabel{
+    float: left;
+    display: block;
+    width: 30vw;
+    padding: 0.5rem;
+    font-size: 14px;
+}
+
+.checkout{
+    padding-top: 3rem;
+}

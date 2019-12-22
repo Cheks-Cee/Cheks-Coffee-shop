@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chek's coffee- checkout</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <div>
+            <a class="headerlogo" href="index.html">
+                <img src="logo.jpeg" alt="logo"/>
+            </a>
+            <span id="headername">Cheks' Coffee Store</span>
+            <input type="search" class=" searchbox" placeholder="search our store">
+        </div>
+
+        <nav class="backgroundgradient">
+            <ul>
+                <li><a class="navlink" href="index.html">Home</a></li>
+                <li><a class="navlink" href="blog.html">Blog</a></li>
+                <li><a class="navlink" href="ourCoffee.html">Our Coffee</a></li>
+                <li><a class="navlink" href="accessories.html">Accessories</a></li>
+                <li><a class="navlink" href="gifts.html">Gifts</a></li>
+                <li><a class="navlink" href="findus.html">Find us</a></li>
+                <li><a class="navlink" href="checkout.html">Checkout</a></li>
+            </ul>
+        </nav>
+
+
+    </header>
+
+
+    <div id="welcomeimage">
+        <img src="coffeeheader.jpg" alt="coffee"/>
+    </div>
+    <div id="coffeeofthemonth">
+        <img src="cotm.jpg"/>
+    </div>
+
+    <main>
+        <h1 class="checkout">Checkout</h1>
+
+        <form action="post">
+            <fieldset>
+                <legend>Your Details</legend>
+
+                <div>
+                    <p>
+                        <label for="first-name" class="textlabel">First Name</label>
+                        <input type="text" name= "first-name" placeholder="First name" class="textinput" required>
+                        <br>
+
+                    </p>
+                   
+                    <p>
+                        <label for="last-name" class="textlabel">Last Name</label>
+                        <input type="text" name="last-name" placeholder="Last Name" class="textinput" required>
+                        <br>
+
+                    </p>
+                    
+                    <p>
+                        <label for="email" class="textlabel">Email Address</label>
+                        <input type="email" placeholder= "Please Enter your Email Address" class="textinput" required>
+                        <br>
+
+                    </p>
+                    
+                    <p>
+                        <label for="street" class="textlabel">Street</label>
+                        <input type="text" name= "street" placeholder="Enter shipping street name" class="textinput" required>
+                        <br>
+
+                    </p>
+                    
+                    <p>
+                        <label for="house-number" class="textlabel">Number</label>
+                        <input type= "number" name="house-number" placeholder ="Enter Shipping House Number" class="textinput" required>
+                        <br>
+
+                    </p>
+                    
+                    <p>
+                        
+                        <label for="zip-code" class="textlabel">Zip code</label>
+                        <input type="text" name="zip-code" placeholder= "Zip Code" class="textinput" required>
+                        <br>
+                    </p>
+
+                    <p>
+                        <label for="city" class="textlabel">City</label>
+                        <input type="text" name="city" placeholder= "City" class="textinput" required>
+                        <br>
+
+                    </p>
+                    
+                    <p>
+                        
+                        <label for="country" class="textlabel">Country</label>
+                        <input type="text" name="country" placeholder= "Country" class="textinput" required>
+                        <br>
+
+                    </p>
+
+                    <p>
+                        <label for="phone-number" class="textlabel">Phone Number</label>
+                        <input type="number" name="phone-number" placeholder="Enter Your Phone Number" class="textinput" required>
+                        <br>
+
+                    </p>
+
+                    <p>
+                        
+                        <label for="blog" class="textlabel">Blog</label>
+                        <input type="url" name="blog" placeholder="Please Enter Your Blog URL" class="textinput" required>
+                        <br>
+
+                    </p>
+
+                    <p>
+                        <label for="remarks" class="textlabel">Remarks</label>
+                        <input type="text" placeholder="Enter other Remarks" class="textinput" required>
+                        <br>
+
+                    </p>
+    
+                </div>
+                
+            </fieldset>
+
+            <fieldset>
+                <legend>Your Order</legend>
+
+                <div>
+                    <p>
+                        <label for="delivery-date" class="textlabel">Requested Deliver Date</label>
+                        <input type="date" name="delivery-date" class="textinput">
+                        <br>
+    
+                    </p>
+                   
+    
+                    <p>
+                        <label for="paperColor" class="textlabel">Wrapping Paper Color</label>
+                        <input type="color" name= "wrapping paperColor" class="textinput">
+                        <br>
+    
+                    </p>
+                    
+                    <p>
+                        <label for="bows" class="textlabel">How Many Bows On Package?</label>
+                        <input type="number" name="bows" class="textinput">
+                    
+                    </p>
+                    
+                    
+                </div>
+                
+            </fieldset>
+            <p>
+                <input type="submit" value="Place Order" class="submitButton">
+            </p>
+
+            
+        </form>
+    </main>
+    
+</body>
+</html>

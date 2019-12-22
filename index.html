@@ -155,7 +155,7 @@
         </section>
         
         
-        <section class="accessoriesbestsellers">
+        <section class="accessoriesbestsellers"> 
             <header class="backgroundgradient">
                 Accessories
             </header>
@@ -216,6 +216,18 @@
             <p class="smalltext">This page was generated on <time>09:25:04.123</time></p>
         </footer>
         
+
+        <script>
+            let btn= document.querySelector('.navlink');
+            console.log(btn)
+
+            btn.addEventListener("focus", function(){
+                console.log('I got clicked')
+                // btn.classList.add('active');
+                btn.style.color = "red";
+            })
+
+        </script>
         <script src="scripts/testscript.js" async defer></script>
     </body>
 </html>
